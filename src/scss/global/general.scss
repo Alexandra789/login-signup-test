@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: $light_black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+}
+
+a, button {
+	transition: all .3s;
+}
+
+a {
+	text-decoration: none;
+	color: $blue;
+}
+
+ul {
+	list-style-type: none;
+}
+
+img {
+	width: 100%;
+	display: block;
+	height: 100%;
+	object-fit: contain;
+}
+
+.container {
+	padding: 0 16px;
+	max-width: 697px;
+	margin: 0 auto;
+}
+
+.title {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.subtitle {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+button {
+	font-family: 'PT Sans', sans-serif;
+	background: none;
+	cursor: pointer;
+}
+
+.btn {
+	font-weight: 400;
+	font-size: 14px;
+	color: $white;
+	padding: 7px 25.5px;
+	background-color: $blue;
+}
+
+input {
+	color: $light_black;
+	background: $white;
+	padding-bottom: 8px;
+	border-bottom: 1px solid $light_gray;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+	border-bottom: 1px solid $light_gray;
+	-webkit-text-fill-color: $light_black;
+	background-color: $white !important;
+	-webkit-box-shadow: 0 0 0 0 inset;
+	transition: background-color 5000s ease-in-out 0s;
+}
